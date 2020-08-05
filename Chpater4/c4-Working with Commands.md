@@ -91,11 +91,11 @@
    README and Other Program Documentation Files
    Many software packages installed on our system have documentation files residing in the /usr/share/doc directory. Most of these are stored in plain text format and can be viewed with less. Some of the files are in HTML format and can be viewed with a web browser. We may encounter some files ending with a “.gz” extension. This indicates that they have been compressed with the gzip compression program. The gzip package includes a special version of less called zless that will display the contents of gzipcompressed text files.
    
-   But before we start, we need to reveal a small command line trick. It's possible to put more than one command on a line by separating each command with a semicolon. 
+   But before we start, we need to reveal a small command line trick. It's possible to put more than one command on a line by separating each command with a semicolon.  
    `command1; command2; command3... `
    
    `alias name='string'`    
    After the command alias, we give alias a name followed immediately (no whitespace allowed) by an equal sign, followed immediately by a quoted string containing the meaning to be assigned to the name. After we define our alias, we can use it anywhere the shell would expect a command.
    
-   To remove an alias, the unalias command is used.
+   To remove an alias, the unalias command is used. 
    `unalias foo`
